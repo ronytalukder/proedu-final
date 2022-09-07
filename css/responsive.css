@@ -1,0 +1,274 @@
+@media (min-width: 320px) and (max-width: 667.98px) {
+  .only_sm_devise {
+    display: none;
+  }
+
+  #main_menu .register {
+    font-size: 18px;
+    padding: 11px 27px;
+  }
+
+  #main_menu {
+    padding: 20px 0;
+  }
+
+  #banner h1 {
+    font-size: 40px;
+    width: auto;
+  }
+  #banner p {
+    width: auto;
+  }
+
+  #banner .banner_slide {
+    padding: 60px 0;
+  }
+
+  #course .course_tittle {
+    width: auto;
+  }
+
+  .tittle {
+    font-size: 30px;
+  }
+  #course {
+    padding: 60px 0;
+  }
+
+  #course .item {
+    flex-wrap: wrap;
+  }
+  #course .item .img {
+    width: 100%;
+  }
+  #course .item .text {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  #elearning img {
+    width: 100%;
+  }
+  #elearning .count {
+    flex-wrap: wrap;
+  }
+
+  #elearning .number {
+    margin-right: 20px;
+    width: 40%;
+  }
+
+  #elearning .count h2 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #1d1d1d;
+  }
+
+  #ready_join .left {
+    width: 100%;
+  }
+  #ready_join .right {
+    width: 100%;
+  }
+  #ready_join .main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #ready_join .main p {
+    color: #ffff;
+    width: auto;
+  }
+  #ready_join .container {
+    padding: 60px 20px;
+    background-color: #289bde;
+  }
+
+  #ready_join .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #ready_join {
+    padding: 60px 0;
+  }
+
+  #succesfull_student .studentittle {
+    width: auto;
+  }
+  #succesfull_student {
+    margin-bottom: 60px;
+  }
+  #question .question_title {
+    padding: 0 0;
+  }
+
+  #elearning .tittle {
+    margin-top: 20px;
+  }
+
+  .question_title .tittle {
+    font-size: 27px;
+  }
+
+  #question {
+    margin-bottom: 60px;
+  }
+  #companie h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-bottom: 60px;
+  }
+
+  #companie .name {
+    width: 40%;
+    margin-bottom: 30px;
+  }
+  #companie .name img {
+    width: 100%;
+  }
+
+  #companie {
+    margin-bottom: 60px;
+  }
+  #footer {
+    padding: 60px 0;
+    background: #161616;
+    text-align: center;
+  }
+}
+
+/* skldfjskldjflksjdfklsjdfkljskldfjsdkl */
+
+@media (min-width: 668px) and (max-width: 991.98px) {
+  #main_menu {
+    position: relative;
+  }
+
+  .only_sm_devise {
+    display: block;
+    position: absolute;
+    right: 194px;
+    top: 35px;
+  }
+
+  #main_menu .register {
+    padding: 11px 27px;
+  }
+
+  #main_menu .register {
+    font-size: 18px;
+    padding: 11px 27px;
+  }
+
+  #main_menu {
+    padding: 20px 0;
+  }
+
+  #banner h1 {
+    font-size: 40px;
+    width: auto;
+  }
+  #banner p {
+    width: auto;
+  }
+
+  #banner .banner_slide {
+    padding: 60px 0;
+  }
+
+  .tittle {
+    font-size: 35px;
+  }
+
+  #elearning img {
+    width: 100%;
+  }
+
+  #elearning .count {
+    flex-wrap: wrap;
+  }
+  
+  #elearning .number {
+	width: 29%;
+	margin-right: 10px;
+}
+  #elearning .text p span {
+display: none;
+}
+
+#elearning .text {
+    padding: 20px 0;
+}
+
+#elearning .tittle {
+	font-size: 27px;
+}
+
+#elearning .count p {
+	font-size: 17px;
+	font-weight: 500;
+	color: #777777;
+}
+
+
+#elearning .count h2 {
+	font-size: 23px;
+}
+
+
+#ready_join .left{
+    width: 55%;
+} 
+
+
+#ready_join .right{
+    width: 45%;
+} 
+#ready_join .main p {
+	color: #ffff;
+	width: auto;
+}
+
+
+#ready_join .container {
+	padding: 30px 40px;
+	background-color: #289BDE;
+}
+
+#ready_join {
+	padding: 80px 0;
+}
+
+#succesfull_student {
+	margin-bottom: 80px;
+}
+
+#question .tittle {
+	font-size: 34px;
+}
+#question .question_title {
+	margin-bottom: 50px;
+}
+#question {
+	margin-bottom: 80px;
+}
+#companie h2 {
+	margin-bottom: 80px;
+}
+#companie {
+	margin-bottom: 80px;
+}
+
+#companie .main .name {
+	width: 15%;
+}
+#companie .main .name img{
+    width: 100%;
+}
+
+#footer {
+	padding: 80px 0;
+}
+
+}

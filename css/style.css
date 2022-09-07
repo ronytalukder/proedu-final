@@ -1,0 +1,438 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.pera{
+    font-size: 16px;
+    font-weight: 400;
+    color: #777777;
+    line-height: 30px;
+}
+
+.tittle{
+    font-size: 45px;
+    font-weight: 600;
+    color: #1D1D1D;
+}
+
+
+.button_style{
+    font-size: 20px;
+    font-weight: 600;
+    color:#ffff;
+    padding:13px 33px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: #289BDE;
+}
+
+.only_sm_devise{
+    display: none;
+}
+
+
+/* common css end */
+
+/*=========================== 
+        main menu start
+/*=========================== */
+#main_menu{
+    padding: 65px 0;
+}
+#main_menu .navbar-brand{
+    font-size: 40px;
+    font-weight: 600;
+    color: #4A4A4A;
+}
+
+#main_menu ul li a{
+    font-size: 18px;
+    font-weight: 400;
+    color:#777777;
+    margin: 0 15px;
+}
+
+
+#main_menu  .register{
+    font-size: 20px;
+    font-weight: 600;
+    color:#289BDE;
+    padding:13px 33px;
+    border: 1px solid #289BDE;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: transparent;
+}
+
+/*=========================== 
+        main menu end
+/*=========================== */
+
+/*=========================== 
+        banner  start
+/*=========================== */
+
+#banner .banner_slide{
+background: url(../images/cover/cover-1.png);
+padding: 180px 0;
+position: relative;
+z-index: 1;
+text-align: center;
+}
+
+#banner .banner_slide_2{
+background: url(../images/cover/cover-2.jpg);
+}
+#banner .banner_slide_3{
+background: url(../images/cover/cover-3.jpg);
+}
+
+#banner .banner_slide::before{
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: '';
+    background-color:rgba(29, 29, 29, 0.7) ;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#banner h1{
+    font-size: 65px;
+    font-weight: 600;
+    width: 632px;
+    text-align: center;
+    margin: 0 auto;
+    color: #ffff;
+}
+
+
+#banner p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #F4F4F4;
+    line-height: 30px;
+    width: 671px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+#banner a{
+color: #ffff;
+}
+/*=========================== 
+        banner end
+/*=========================== */
+
+/*=========================== 
+        course start
+/*=========================== */
+#course{
+    padding: 130px 0;
+}
+#course .course_tittle{
+text-align: center;
+width: 606px;
+margin: 0 auto;
+}
+
+#course .course_tittle p{
+    margin-bottom: 50px;
+}
+
+#course .item{
+    display: flex;
+    margin-bottom: 24px;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#course .item .img{
+    width: 30%;
+} 
+#course .item .img img{
+    width: 100%;
+}
+#course .item .text{
+    width: 70%;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+} 
+
+#course .item .text h3{
+    font-size: 25px;
+    font-weight: 600;
+    color:#4A4A4A; 
+   margin-bottom: 5px;
+}
+
+#course .item .text p{
+    line-height: 24px;
+    margin-bottom: 7px;
+}
+
+#course .item .text h4{
+    font-size: 18px;
+    font-weight: 600;
+    color:#289BDE; 
+}
+
+#course .all_course{
+   text-align: center;
+   margin-top: 24px;
+}
+/*=========================== 
+        course end
+/*=========================== */
+/*=========================== 
+        elearning start
+/*=========================== */
+
+#elearning .container{
+background-color: #F4FAFD;
+}
+
+#elearning .text p span{
+    display: block;
+    margin-top: 40px;
+}
+
+#elearning .count{
+    display: flex;
+    margin: 20px 0;
+}
+#elearning .number{
+    margin-right: 50px;
+}
+
+#elearning .count h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #1D1D1D;
+}
+#elearning .count p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #777777;
+}
+/*=========================== 
+        elearning end
+/*=========================== */
+
+/*=========================== 
+        ready to join start
+/*=========================== */
+#ready_join{
+    padding: 130px 0;
+}
+#ready_join .container {
+padding: 80px 100px;
+background-color:#289BDE ;
+}     
+
+#ready_join .main{
+    display: flex;
+    justify-content: space-between;
+}
+
+#ready_join .main h2{
+    font-size: 45px;
+    color: #ffff;
+    font-weight: 600;
+}
+#ready_join .main p{
+    color: #ffff;
+    width:528px ;
+}
+
+#ready_join .button_style{
+    background-color: #ffff;
+    color: #289BDE;
+}
+
+#ready_join .right{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+#ready_join .modal-content{
+    background-color: #289BDE;
+    color: #ffff;
+}
+#ready_join .modal-body{
+    padding: 50px;
+}
+#ready_join .modal-body h2{
+    text-align: center;
+}
+/*=========================== 
+        ready to join end
+/*=========================== */
+
+/*=========================== 
+       Successfull Students start
+/*=========================== */
+
+#succesfull_student{
+    margin-bottom: 130px;
+}
+
+#succesfull_student .studentittle{
+    width: 549px;
+}
+#succesfull_student .student img{
+width: 100%;
+}
+#succesfull_student .student{
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-top: 50px;
+}
+#succesfull_student .student .detils{
+    padding:20px ;
+}
+#succesfull_student .student .detils h5{
+font-size: 20px;
+font-weight: 600;
+color: #1D1D1D;
+}
+
+#succesfull_student .student .detils p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #777777;
+    line-height: 30px;
+}
+#succesfull_student .all_students {
+    text-align: center;
+    margin-top: 50px;
+}
+/*=========================== 
+       Successfull Students end
+/*=========================== */
+
+/*=========================== 
+       Questions start
+/*=========================== */
+#question{
+    margin-bottom: 130px;
+}
+#question .question_title{
+    text-align: center;
+    padding: 0 100px;
+}
+
+
+#question .accordion-item{
+    margin-bottom: 25px;
+}
+
+#question .accordion-item h2{
+    border: none;
+  
+}
+
+
+/*=========================== 
+       Questions end
+/*=========================== */
+
+/*=========================== 
+       companie start
+/*=========================== */
+#companie{
+    margin-bottom: 130px;
+}
+#companie h2{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-bottom: 130px;
+}
+
+#companie .main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/*=========================== 
+       companie end
+/*=========================== */
+
+/*=========================== 
+       footer start
+/*=========================== */
+#footer{
+    padding: 130px 0;
+    background: #161616;
+    text-align: center;
+}
+#footer h2{
+    color: #E8E8E8 !important;
+}
+#footer p{
+    color: #E8E8E8 !important;
+}
+#footer p a{
+    color: #E8E8E8 !important;
+}
+
+#footer .address{
+    width: 321px;
+    margin: 0 auto;
+}
+#footer a i{
+    font-size: 20px;
+    color: #ffff;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #242424 ;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: 0 3px;
+}
+/*=========================== 
+       footer end
+/*=========================== */
